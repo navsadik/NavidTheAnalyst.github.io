@@ -43,7 +43,7 @@
 							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
 							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
 							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+							<li><a href="https://github.com/navsadik" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
 						</ul>
 					</nav>
 
@@ -134,48 +134,8 @@
 
 				<!-- Footer -->
 					<footer id="footer">
-						<section>
-							<form onsubmit= "sendEmail(); reset(); return false;" method="post" action="#">
-								<div class="fields">
-									<div class="field">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
-									</div>
-									<div class="field">
-										<label for="email">Email</label>
-										<input type="text" name="email" id="email" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="3"></textarea>
-									</div>
-								</div>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
-							</form>
-						</section>
-						<script src="https://smtpjs.com/v3/smtp.js"></script>
-						<script>
-							function sendEmail()
-							{
-								Email.send({
-									Host : "smtp.gmail.com",
-									Username : "domydirtyworkscapegoat@gmail.com",
-									Password : "Iamalone97!",
-									To : 'navsadik@gmail.com',
-									From : document.getElementById("email").value,
-									Subject : "new contact form enquiry",
-									Body : "Name: " + document.getElementById("name").value
-									+ "<br> Email: " + document.getElementById("email").value
-									+ "<br> Message: " + document.getElementById("message").value
-								}).then(
-								message => alert("Message sent")
-								);
-								
-							}
-						</script>
-						<section class="split contact">
+						
+						<section class="split contact"> -->
 							<section class="alt">
 								<h3>Address</h3>
 								<p>North York /
@@ -195,7 +155,7 @@
 									<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
 									<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
 									<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="https://github.com/navsadik" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
 								</ul>
 							</section>
 						</section>
